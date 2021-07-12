@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/error/404",
+    "pages/changepwd/changepwd"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/system",
+      "pages": [
+        "menu/list",
+        "menu/add",
+        "menu/edit",
+        "permission/list",
+        "permission/add",
+        "permission/edit",
+        "role/add",
+        "role/edit",
+        "role/list",
+        "user/add",
+        "user/edit",
+        "user/list"
+      ]
+    },
+    {
+      "root": "pages/demo",
+      "pages": [
+        "init/init",
+        "icons/icons",
+        "iconss/icons",
+        "table/table"
+      ]
+    }
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

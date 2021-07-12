@@ -1,0 +1,50 @@
+
+.uni-transition {
+	transition-timing-function: ease;
+	transition-duration: 0.3s;
+	transition-property: transform, opacity;
+	z-index: 998;
+}
+.fade-in {
+	opacity: 0;
+}
+.fade-active {
+	opacity: 1;
+}
+.slide-top-in {
+	/* transition-property: transform, opacity; */
+	transform: translateY(-100%);
+}
+.slide-top-active {
+	transform: translateY(0);
+	/* opacity: 1; */
+}
+.slide-right-in {
+	transform: translateX(100%);
+}
+.slide-right-active {
+	transform: translateX(0);
+}
+.slide-bottom-in {
+	transform: translateY(100%);
+}
+.slide-bottom-active {
+	transform: translateY(0);
+}
+.slide-left-in {
+	transform: translateX(-100%);
+}
+.slide-left-active {
+	transform: translateX(0);
+	opacity: 1;
+}
+.zoom-in-in {
+	transform: scale(0.8);
+}
+.zoom-out-active {
+	transform: scale(1);
+}
+.zoom-out-in {
+	transform: scale(1.2);
+}
+
